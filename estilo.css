@@ -1,0 +1,618 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+    background: linear-gradient(#30135e, #4d309c);
+}
+
+main{
+    background-image: url(imagens/stars.png);
+}
+
+header{
+    position: fixed;
+    background-color: rgba(38, 10, 83, 0.85);
+    width: 100vw;
+    font-family: sans-serif;
+}
+
+#hamburguer{
+    padding: 0.2em;
+    display: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header_nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.logo-icon1{
+    width: 3em;
+    height: 3em;
+    padding-left: 2em;
+}
+
+.itens_menu{
+    padding-right: 2em;
+}
+
+.itens_menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: .7em;
+}
+
+.itens_menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .13em;
+    color: white;
+    font-size: 0.93rem;
+    font-family: 'PT Serif', serif;
+}
+
+
+.itens_menu a:hover{
+    color: #A2A6F2;
+    text-shadow: #000000 0.1em 0.1em 0.2em;
+}
+
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon2{
+    width: 20em;
+    transition: transform 1s ease;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.logo-icon2:hover{
+    transform: scale(1.1);
+    transition-delay: 350ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 250ms;
+    transition: 0.6s ease;
+}
+
+.section1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(27, 26, 26);
+    background-image: url(imagens/bkg-no-moon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.titulo1{
+    align-items: left;
+    text-transform: uppercase;
+    border-bottom: 0.01em dotted #120830;
+    padding: 0.80em;
+    letter-spacing: .15em;
+    color: #120830;
+    font-family:'Playfair Display', serif;
+    font-size: 2.5em;
+    width: 50%;
+    padding-top: 0;
+}
+
+.item2{
+    width: 50%;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgba(200, 189, 221, 0.493);
+    border-radius: 8px;
+    padding: 1em;
+}
+
+.moon-img{
+    width: 15em;
+    height: 15em;
+    position: absolute;
+    opacity: 0.35;
+}
+
+
+.alinhar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto1{
+    padding: 2em;
+    color: #000000;
+    opacity: 1.0;
+    background-color: rgba(200, 189, 221, 0.555);
+    border-radius: 5px;
+    letter-spacing: 0.04em;
+}
+
+.section2{
+    height: 100vh;
+    background-color: rgba(41, 12, 95, 0.24);
+    padding: 5em;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/stars.png);
+    background-attachment: fixed;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    background-image: url(imagens/background-mountain-mountain-clipart-nature-ice-outdoors-snow-transparent-png-2706400.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.titulo2{
+    text-transform: uppercase;
+    font-family:'Playfair Display', serif;
+    border-bottom: 0.05em #f3ebeb dotted;
+    padding: 1em;
+    letter-spacing: 0.2em;
+    width: 30%;
+}
+
+.section2 p{
+    letter-spacing: 0.1em;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.width-fix{
+    width: 35em;
+    background-color: rgba(24, 4, 59, 0.822);
+    padding: 3em;
+    border-radius: 8px;
+}
+
+
+.climber{
+    width: 20em;
+    height: 20em;
+}
+
+.section3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/icons/obstacles.png);
+    background-position: left;
+    background-attachment: fixed;
+    background-size: 30em;
+    background-repeat: repeat;
+}
+
+.section3 p{
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.des-title{
+    font-family:'Playfair Display', serif;
+    letter-spacing: 0.1em;
+}
+
+.sec3-div{
+    width: 50em;
+    border-radius: 8px;
+    background-color: rgba(31, 6, 61, 0.877);
+    padding: 2em;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.section4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(imagens/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section4 p{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.conq-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.conquista{
+    background-color: #270b53;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 2em;
+}
+
+.conquista p{
+    letter-spacing: 0.12em;
+}
+
+.conquista h2{
+    padding-bottom: 1em;
+    letter-spacing: 0.2em;
+}
+
+.img-running{
+    margin-top: 2em;
+    width: 6em;
+    height: 6em;
+    background: linear-gradient(#e1d8ec, #9d93bb);
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.conq-div{
+    width: 50em;
+}
+
+.conq-title{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family:'Playfair Display', serif;
+}
+
+.section5{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #d6acf109;
+}
+
+.section5 h2{
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+    font-family:'Playfair Display', serif;
+}
+
+
+.section5 p{
+    letter-spacing: 0.09em;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.aprendizados{
+    padding: 5em;
+    background-color: #28065fcc;
+    padding-bottom: 5em;
+    border-radius: 8px;
+}
+.aprend-div{
+    width: 45em;
+}
+
+.img-apd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding-top: 5em;
+}
+
+.img-apd-fix{
+    width: 5em;
+    height: 5em;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.section6{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #5e3cad69;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.section6 a{
+    text-decoration: none;
+    background-color: #3d0981;
+    padding: 1.3em;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #F2F2F2;
+    font-family:'Playfair Display', serif;
+}
+
+.section6 a:hover{
+    background-color: color-mix(in srgb, #2c0c5c, #4e1c9e 20%);
+}
+
+.section6 p{
+    padding: 1em;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+}
+
+.section6 h2{
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: 'PT Serif', serif;
+    color: #1b0249;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+
+.proj-img-fix{
+    width: 10em;
+    height: 10em;
+}
+
+.fixes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 26em;
+}
+
+.section7{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Playfair Display', serif;
+}
+
+.section7{
+    text-align: center;
+    padding: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    width: auto;
+}
+
+.section8{
+    background-color: #2c0c5c;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.section8 img{
+    height: 6em;
+    width: 6em;
+}
+
+footer{
+    text-align: center;
+    padding: 2em;
+    color: #ffffff;
+    background-color: #260c4e;
+}
+
+footer h2{
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    font-family:'Playfair Display', serif;
+}
+
+footer p{
+    letter-spacing: 0.1em;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+@media screen and (max-width:33em){
+
+    header{
+        position: fixed;
+    }
+
+    .item2{
+        width: 15em;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .inicio{
+        width: 20em;
+    }
+
+    .section3{
+        width: auto;
+    }
+
+    .conquistas{
+        width: 10em;
+    }
+
+    .section5{
+        padding-top: 5em;
+    }
+
+    .section5 img{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:36em){
+
+    header{
+        position: fixed;
+    }
+
+    .section1{
+        height: fit-content;
+        background-image: url(imagens/bkg-w-moon.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .logo-icon2:hover{
+       pointer-events: none;
+    }
+
+    .logo-icon2{
+        pointer-events: none;
+    }
+
+    .moon-img{
+        display: none;
+    }
+
+    .climber{
+        display: none;
+    }
+
+    .width-fix{
+        width: 20em;
+    }
+
+    .conquistas{
+        width: 20em;
+    }
+
+    .section4 img{
+        display: none;
+    }
+
+    .aprend-div{
+        width: 30em;
+    }
+
+    .img-apd{
+       gap: 1.5em;
+    }
+
+    .img-apd-fix{
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .section8{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video{
+        width: 25em;
+    }
+}
+
+@media screen and (max-width:73.70em){
+    .moon-img{
+        display: none;
+    }
+
+    .itens_menu.show{
+        display: block;
+    } 
+
+    #hamburguer{
+        display: block;
+    }
+
+    .logo-icon2:hover{
+        pointer-events: none;
+     }
+ 
+     .logo-icon2{
+         pointer-events: none;
+     }
+
+    .itens_menu{
+        display: none;
+    }
+
+    .logo-icon1{
+        margin-right: 2em;
+    }
+
+    .flexbox{
+        flex-direction: column;
+    }
+
+    .columns{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    .climber{
+        display: none;
+    }
+
+    .width-fix{
+        width: 30em;
+    }
+
+    .conquistas{
+        width: 30em;
+    }
+
+    .section4{
+        background-image: url(imagens/pattern.png);
+        background-size: cover;
+    }
+
+    .section4 img{
+        width: 4em;
+        height: 4em;
+    }
+
+    .aprend-div{
+        width: 30em;
+    }
+
+    .img-apd-fix{
+        width: 3em;
+        height: 3em;
+    }
+}

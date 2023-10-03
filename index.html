@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Final ♥</title>
+
+    <script src="javascript.js"></script>
+
+    <link rel="stylesheet" href="estilo.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body>
+    
+    <header class="flexbox">
+        <img src="imagens/icons/molde-letra-n-17.png" alt="minha logo" class="logo-icon1">
+
+        <span id="hamburguer" class="material-symbols-rounded hamburguer">
+            menu
+        </span>
+
+        <nav id="itens_menu" class="itens_menu">
+            <ul class="columns" id="columns">
+                <li><a href="#sobre" class="btnMenu1 btn">Sobre</a></li>
+                <li><a href="#inicio" class="btnMenu2 btn">O Início</a></li>
+                <li><a href="#desafios" class="btnMenu3 btn">Desafios</a></li>
+                <li><a href="#conquistas" class="btnMenu4 btn">Conquistas</a></li>
+                <li><a href="#aprendizados" class="btnMenu5 btn">Aprendizados</a></li>
+                <li><a href="#projetos" class="btnMenu6 btn">Projetos</a></li>
+                <li><a href="#elasnatech" class="btnMenu7 btn">Elas-Na-Tech</a></li>
+                <li><a href="#contatos" class="btnMenu8 btn">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var itens_menu = document.getElementById('itens_menu');
+
+        hamburguer.addEventListener('click', aparecer);
+
+        function aparecer (){
+            if(itens_menu.style.display == 'block'){
+                itens_menu.classList.remove('show');
+            }else{
+                itens_menu.classList.toggle('show');
+            }
+        }
+    </script>
+
+    <main id="sobre" class="background">
+
+        
+        <section class="section1">
+
+            
+            <img src="imagens/icons/minha-logo.png" alt="minha logo" class="logo-icon2">
+            <div class="alinhar">
+            <img src="imagens/purple-moon1.png" class="moon-img">
+            </div>
+
+            <div class="item2">
+                <span>🤍</span>
+            <h2 class="titulo1">Sobre</h2>
+                <p class="texto1">Me chamo Nathalia Santana Cerqueira, tenho 21 anos e sou de Salvador. 
+                Tive meu primeiro contato com a web bem jovem, por volta dos 11 anos, e lembro-me de ficar encantada e ao mesmo tempo curiosa sobre como tudo aquilo era feito: quem projetou e criou tudo isso? Após alguns anos, tive a oportunidade de conhecer o Elas Na Tech, projeto que me motivou e ajudou a descobrir minha paixão pelo desenvolvimento web.
+            </p>
+            </div>
+            <br>
+            <br>
+        </section>
+   
+        <section id="inicio" class="section2">
+                
+            <div class="inicio">
+
+                <article class="width-fix">
+                <h2 class="titulo2">O Início</h2>
+                <p>O ínicio da minha trajetória foi bem complicado, afinal, como mencionei anteriormente, o meu conhecimento sobre o mundo da programação era quase inexistente! </p>
+
+                <p>Lembro-me que há alguns meses tudo era muito desafiador para mim, assim como para as outras meninas que também estavam tendo o seu primeiro contato com tudo isso. </p>
+            </article>
+
+                <img src="imagens/icons/vector-climber.png" class="climber">
+
+            </div>
+
+        </section>
+
+
+        <section class="section3" id="desafios">
+
+            <article class="sec3-div">
+
+            <h2 class="des-title">Desafios🏃🏽‍♀️</h2>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque molestiae, rem magnam ad expedita alias cupiditate aliquam tempora? Harum ratione, odio sit corrupti ipsam placeat quaerat. Rem, tenetur id.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque molestiae, rem magnam ad expedita alias cupiditate aliquam tempora? Harum ratione, odio sit corrupti ipsam placeat quaerat. Rem, tenetur id Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestias voluptates maiores porro. Quo deleniti voluptatum rerum, accusamus similique nulla quae unde quidem deserunt distinctio labore fuga officia rem nesciunt?
+                Minima exercitationem, dolorum illo voluptatem magnam facilis. Sunt earum tenetur dolorum quisquam? Laboriosam assumenda architecto quod maxime explicabo sed at expedita. A doloremque sunt assumenda vel unde fugit itaque fugiat.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section id="conquistas" class="section4">
+
+            <div class="conq-div">
+
+            <article class="conquista">
+            <h2 class="conq-title">Conquistas</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo similique quibusdam porro nemo vero obcaecati aut minima quia maiores harum maxime, quidem sint distinctio libero architecto labore enim sit modi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere odio asperiores, iure rem tenetur corrupti, impedit in eum natus quos omnis rerum officiis sapiente itaque consequuntur deserunt? Expedita, eligendi magnam?
+            Modi, unde odit ad nostrum tempora mollitia fuga pariatur vel ex minima quaerat debitis eveniet a distinctio laboriosam eius dignissimos voluptatibus repellendus voluptatem sed ea earum. Ab, tempora? Modi, aspernatur?</p>
+            </article>
+
+
+            <div>
+                <div> <img src="imagens/icons/trophy.png" class="img-running"> </div>
+            </div>
+
+            </div>
+
+        </section>
+
+
+
+        </section>
+
+
+        <section id="aprendizados" class="section5">
+
+            <div class="aprend-div">
+
+            <article class="aprendizados">
+            <h2>Aprendizados</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo similique quibusdam porro nemo vero obcaecati aut minima quia maiores harum maxime, quidem sint distinctio libero architecto labore enim sit modi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere odio asperiores, iure rem tenetur corrupti, impedit in eum natus quos omnis rerum officiis sapiente itaque consequuntur deserunt? Expedita, eligendi magnam?
+            Modi, unde odit ad nostrum tempora mollitia fuga pariatur vel ex minima quaerat debitis eveniet a distinctio laboriosam eius dignissimos voluptatibus repellendus voluptatem sed ea earum. Ab, tempora? Modi, aspernatur?</p>
+            </article>
+
+            <div class="img-apd">
+                <div> <img src="imagens/icons/html-5.png" class="img-apd-fix"> </div>
+                <div> <img src="imagens/icons/css-3.png" class="img-apd-fix"> </div>
+                <div> <img src="imagens/icons/script-java.png" class="img-apd-fix"> </div>
+            </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="projetos" class="section6">
+
+            <div class="projetos">
+                
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 6</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 7</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 8</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+                <article class="fixes">
+                <img src="imagens/butterfly.png" alt="Imagem do projeto" class="proj-img-fix">
+                <h2>Projeto 9</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quisquam dignissimos aperiam esse iusto sint? Magnam non cum et dolore in placeat officiis deserunt praesentium repellat, est sequi atque autem.</p>
+                <a href="#">Saiba Mais</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="elasnatech" class="section7">
+            <div>
+            <h2>♥ Elas Na Tech ♥</h2>
+
+            <div class="video">
+            <!-- 
+                <video src=""></video> -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DpRIomLBQZA?si=TwEMh3pOuOCv0jFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            </div>
+        </section>
+
+        <section class="section8">
+                <div><a href="https://contate.me/nathalia-s-cerqueira" target="_blank"><img src="imagens/icons/social-media/whatsapp.png" alt="Whatsapp"></a></div>
+
+                <div><a href="#"><img src="imagens/icons/social-media/facebook.png" alt="Facebook"></a></div>
+
+                <div><a href="#"><img src="imagens/icons/social-media/instagram.png" alt="Instagram"></a></div>
+
+                <div><a href="#"><img src="imagens/icons/social-media/linkedin.png" alt="Linkedin"></a></div>
+
+                <div><a href="index2.html"><img src="imagens/icons/social-media/github.png" alt="Github"></a></div>
+        </section>
+
+        <footer id="contatos">
+            
+            <h2>Quer trabalhar comigo? Contate-me</h2>
+            <p>Email: natysantana1949@gmail.com</p>
+            <p>Email(alternativo): naty1949@live.com</p>
+
+        </footer>
+
+    </main>
+    
+</body>
+
+</html>
